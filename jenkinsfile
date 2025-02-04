@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'git-credential', url: 'https://https://github.com/tinu-ns/jenkine-file-repo1.git'
+                git branch: 'main', credentialsId: 'git-credential', url: 'https://github.com/tinu-ns/jenkine-file-repo1.git'
             }
         }
         stage('Maven build') {
